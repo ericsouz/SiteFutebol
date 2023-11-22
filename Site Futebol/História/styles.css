@@ -1,0 +1,40 @@
+body {
+    background-image: url('/img/historia.png');
+    background-size: cover;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+.texto {
+    font-size: 30px;
+    margin: 80px;
+    text-align: justify;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 10px;
+}
+
+a:hover {
+    color: rgb(236, 236, 236);
+}

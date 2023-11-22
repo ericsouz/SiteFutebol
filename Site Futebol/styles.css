@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/principal.png');
+    background-size: cover;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    color: #64a002;
+    margin: 0.5em;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.link:hover {
+    color: #cc0066; /* Altere a cor desejada ao passar o mouse sobre os links */
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    .link {
+        font-size: 1.2em;
+    }
+}
